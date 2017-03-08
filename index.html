@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/todolist.css">
+    <title>Todolist - Créer votre liste de taches</title>
+</head>
+<body>
+	<main>
+		<h1>Liste des taches</h1>
+		<ul class="tasks">
+			<li class="all"><input type="checkbox"></li>
+	    	<li><input type="checkbox"> Lorsque l'on sélectionne une checkbox, la tache associée se retrouve barrée et en italique</li>
+	    	<li><input type="checkbox"> Lorsqu'on désélectionne une checkbox, la tache associée redevient normale</li>
+	    	<li><input type="checkbox"> Lorsque je sélectionne la checkbox en haut (celle sans tache associée), toutes les checkbox sont sélectionnées</li>
+	    	<li><input type="checkbox"> Lorsque je désélectionne la checkbox en haut, toutes les checkbox sont désélectionnées</li>
+	    	<li><input type="checkbox"> Lorsque je clique sur le bouton "Valider les taches terminées", les taches barrées sont cachées</li>
+	    	<li><input type="checkbox"> Lorsqu'aucune tache n'est barrée, un message d'erreur est affiché</li>
+	    	<li><input type="checkbox"> Changer la facon dont on raye les taches cochées pour ne plus utiliser de handler d'event, mais que du CSS </li>
+	    	<li><input type="checkbox"> [BONUS] Créer un bouton pour créer une nouvelle tache</li>
+		</ul>
+		<button id="valid-tasks">Masquer les tâches terminées</button>
+		<button id="create-task">Créer une nouvelle tache</button>
+
+		<p id="active-tasks">Vous avez sélectionné <em>0</em> tâches terminée(s)</p>
+	</main>
+	<script src="js/todolist.js"></script>
+</body>
+</html>

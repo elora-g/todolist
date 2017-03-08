@@ -1,0 +1,15 @@
+ul.tasks 
+{
+  list-style: none;
+}
+
+li.selected
+{
+	text-decoration: line-through;
+	font-style: italic;
+}
+
+li.hide
+{
+	display: none;
+}
